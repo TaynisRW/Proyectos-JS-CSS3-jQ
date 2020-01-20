@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scratch Effects</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="scratch"></div>
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+  <script src="wScratchPad.min.js"></script>
+  <script type="text/javascript">
+    $('#scratch').wScratchPad({
+      size        : 150,          // The size of the brush/scratch.
+      bg          : 'img2.jpg',  // Background (image path or hex color).
+      fg          : 'img1.jpg'
+    });
+  </script>
+</body>
+</html>

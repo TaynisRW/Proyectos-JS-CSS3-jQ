@@ -1,0 +1,170 @@
+*
+{
+	scroll-behavior: smooth;
+}
+
+body 
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+section 
+{
+	height: 100vh;
+	background: #111;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section.banner
+{
+	background: url(backg.png);
+	background-size: cover;
+}
+
+section.banner .content
+{
+	text-align: center;
+}
+
+section.banner .content h1 
+{
+	font-size: 120px;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0 0 20px;
+	padding: 0; 
+}
+
+section.banner .content a
+{
+	border: 2px solid #fff;
+	color: #fff;
+	padding: 10px 40px;
+	font-size: 24px;
+	text-decoration: none;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+section.banner .content a:hover
+{
+	background: #ff0;
+	border: 2px solid #ff0;
+	color: #262626;
+}
+
+.post
+{
+	position: relative;
+	width: 800px;
+	height: 500px;
+	background: #fff;
+}
+
+.post img 
+{
+	object-fit: cover;
+	width: 800px;
+	height: 500px;
+	border: 2px solid #262626;
+	
+}
+
+.post .btn
+{	
+	position: absolute;
+	border: 2px solid #262626;
+	color: #262626;
+	background: #ff0;
+	padding: 10px 40px;
+	font-size: 24px;
+	text-decoration: none;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.post .btn.prev
+{
+	top: 50px;
+	left: -80px;
+}
+
+.post .btn.next
+{
+	bottom: 50px;
+	right: -80px;
+}
+
+.post-title
+{
+	position: absolute;
+	background: rgba(0,0,0,.9);
+	color: #fff;
+	bottom: 20px;
+	left: 20px;
+	font-size: 32px;
+	font-weight: 600px;
+	padding: 20px;
+	line-height: 40px;
+	width: calc(100% - 100px);
+	box-sizing: border-box;
+}
+
+.post-date
+{
+	position: absolute;
+	border: 2px solid #262626;
+	top: -50px;
+	right: 50px;
+	background: #ff0;
+	color: #262626;
+	padding: 20px;
+}
+
+.post-date span
+{
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+
+.post-date span:nth-child(1)
+{
+	font-size: 60px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.post-date span:nth-child(2),
+.post-date span:nth-child(3)
+{
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 20px;
+}
+
+#post1
+{
+	background: radial-gradient(ellipse farthest-corner at 45px 45px , #111 0%, rgba(0, 0, 255, 0) 50%, #111 95%); 
+	background-size: cover;
+}
+#post2
+{
+	background: radial-gradient(ellipse farthest-corner at 45px 45px , #111 0%, rgba(0, 0, 255, 0) 50%, #111 95%);
+	background-size: cover;
+}
+#post3
+{
+	background: radial-gradient(ellipse farthest-corner at 45px 45px , #111 0%, rgba(0, 0, 255, 0) 50%, #111 95%);
+	background-size: cover;
+}
+#post4
+{
+	background: radial-gradient(ellipse farthest-corner at 45px 45px , #111 0%, rgba(0, 0, 255, 0) 50%, #111 95%);
+	background-size: cover;
+}
