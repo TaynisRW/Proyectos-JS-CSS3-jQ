@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.container{
+	position: relative;
+	width: 900px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container .imgBox{
+	position: relative;
+	width: 400px;
+	height: 400px;
+	margin: 20px;
+}
+
+.container .imgBox img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: none;
+}
